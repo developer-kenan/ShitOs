@@ -1,6 +1,5 @@
 org 0x7C00
 bits 16
-0a:
 mov al, 0x0
 mov al, 0x1
 mov al, 0x2
@@ -14,6 +13,6 @@ mov al, 0x9
 mov al, 0x10
 mov ah, 0x0
 mov ah, 0x1
-jmp 0a
+jmp $
 times 510-($-$$) db 0x0
 dw 0x55AA
