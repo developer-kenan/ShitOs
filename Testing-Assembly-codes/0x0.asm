@@ -1,5 +1,6 @@
 org 0x7C00
 bits 16
+start:
 mov al, 0x0
 mov al, 0x1
 mov al, 0x2
