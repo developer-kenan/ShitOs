@@ -84,7 +84,7 @@ mov al, 'N'
 int 0x10
 mov al, '.'
 int 0x10
-jmp start
+jmp $
 stop:
 hlt
 jmp $
