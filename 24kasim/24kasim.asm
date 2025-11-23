@@ -84,7 +84,9 @@ mov al, 'N'
 int 0x10
 mov al, '.'
 int 0x10
-int 0x0
 jmp start
+stop:
+hlt
+jmp $
 times 510 -($-$$) db 0
 dw 0x55AA
