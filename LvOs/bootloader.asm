@@ -54,6 +54,6 @@ int 0x10
 mov al, 'L'
 
 int 0x10
-jmp start
+jmp $
 times 510 -($-$$) db 0
 dw 0x55AA
