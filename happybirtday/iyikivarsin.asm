@@ -39,6 +39,7 @@ int 0x10
 mov al, 'i'
 int 0x10
 mov al, 'l'
+hlt
 int 0x10
 jmp iyikidogdunberil ;calisacagina emin degilim
 times 510-($-$$) db 0 ; 510 bayt a ayarla ve calisan koddan sonraki yerlere 0 yaz
