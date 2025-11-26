@@ -38,8 +38,6 @@ mov al, 'r'
 int 0x10
 mov al, 'i'
 int 0x10
-mov al, 'i'
-int 0x10
 mov al, 'l'
 int 0x10
 mov al, ' '
