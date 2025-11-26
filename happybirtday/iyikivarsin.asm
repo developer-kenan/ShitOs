@@ -8,6 +8,8 @@ mov al, 'y'
 int 0x10
 mov al, 'i'
 int 0x10
+mov al, ' '
+int 0x10
 mov al, 'k'
 int 0x10
 mov al, 'i'
