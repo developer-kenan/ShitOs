@@ -43,6 +43,7 @@ int 0x10
 mov al, ':'
 int 0x10
 mov al, ')'
+hlt
 jmp iyikidogdunberil ;calisacagina emin degilim
 times 510-($-$$) db 0 ; 510 bayt a ayarla ve calisan koddan sonraki yerlere 0 yaz
 dw 0x55AA ; olmazsa olmaz bios boot imzasi olmazsa bios kodun mbr boot sector oldugunu anlamayıp calistirmaz
